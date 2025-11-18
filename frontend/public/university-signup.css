@@ -1,0 +1,67 @@
+main {
+    display: grid;
+    place-items: center;
+}
+
+.webpage-name {
+    border: 3px solid darkgrey;
+    border-radius: 30px;
+    justify-items: center;
+    background-color: lightgrey;
+    display: grid;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 23px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    opacity: 0.9;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.signup-section {
+    border: 3px solid darkgrey;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: lightgrey;
+    display: grid;
+    width: 300px;
+    margin: 20px;
+    gap: 5px;
+    padding: 20px;
+    opacity: 0.9;
+
+}
+
+#userInput {
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 5px;
+    border: 1px solid darkgrey;
+    text-align: center;
+}
+
+#signup-section-button {
+    border-radius: 25px;
+}
+
+#signup-section-button:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+body {
+    background-image: url(md-duran-1VqHRwxcCCw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}

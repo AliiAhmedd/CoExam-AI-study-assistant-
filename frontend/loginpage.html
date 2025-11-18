@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CO-EXAM</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+
+    <body>
+        <!-- Main Content Of The Webpage -->
+        <main>
+            <div class="webpage-name">
+                <h2>CO-EXAM</h2>
+            </div>
+            
+            <div class="login-section">
+                 <!-- this is going to send request to the backend server  at the end point '/login' and it is going to be a POST type-->
+                <form action="/login" method="POST">
+                    <input type="text" class="userInput" name="username" placeholder="👨‍💻 Email">
+                    <input type="password" class="userInput" name="password" placeholder="🔒Password">
+                    <input type="text" class="userInput" name="unipasskey" placeholder="🗝️ University Passkey">
+                    <input type= "submit" class="userInput" value="Login">
+                </form>
+
+                <button id="sign-up-option">Sign Up</button>
+                <button id="university-signup-page">University Sign Up</button>
+
+            </div>
+        </main>
+    </body>
+</html>
